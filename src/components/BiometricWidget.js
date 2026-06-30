@@ -1,5 +1,4 @@
-import React from "react";
-import { Heart, Zap } from "lucide-react";
+import { FaHeart as Heart, FaLightningBolt as Zap } from 'react-icons/fa';
 
 export default function BiometricWidget({ bpm, stress, spike, onSpike }) {
   return (
